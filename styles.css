@@ -11,6 +11,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  width: 550px;
+  height:550px;
 }
 
 img,
