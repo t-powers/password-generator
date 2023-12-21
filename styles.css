@@ -12,7 +12,7 @@ body {
   display: flex;
   width: 1253px;
   height: 678px;
-  padding: 64px 61px 64px 62px;
+  padding: 64px 61px;
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
@@ -36,9 +36,7 @@ select {
   font: inherit;
 }
 
-
 h1 {
-  width: 354px;
   color: var(--white, #fff);
   font-family: Karla;
   font-size: 40px;
