@@ -52,10 +52,9 @@ section:first-of-type {
   flex-shrink: 0;
   background: #1f2937;
 }
-section:last-of-type {
-  display: flex;
-}
+
 #passwordFields {
+  display: inline-block;
   width: 211px;
   height: 39px;
   border-radius: 6px;
