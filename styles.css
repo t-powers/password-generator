@@ -12,7 +12,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   width: 550px;
-  height:550px;
+  height: 550px;
   background-color: #1f2937;
 }
 
@@ -40,9 +40,14 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-  color:
+  color: ;
 }
-
+#passwordFields {
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+  background: #273549;
+}
 
 #root,
 #__next {
