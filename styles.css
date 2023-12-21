@@ -13,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   width: 550px;
   height:550px;
+  background-color: #1f2937;
 }
 
 img,
@@ -39,7 +40,9 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  color:
 }
+
 
 #root,
 #__next {
