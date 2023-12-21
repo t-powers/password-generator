@@ -9,11 +9,15 @@
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  width: 550px;
-  height: 550px;
-  background-color: #1f2937;
+  display: flex;
+  width: 1253px;
+  height: 678px;
+  padding: 64px 61px 64px 62px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-shrink: 0;
+  background: #1c1c1c;
 }
 
 img,
@@ -41,6 +45,15 @@ h5,
 h6 {
   overflow-wrap: break-word;
   color: ;
+}
+section:first-of-type {
+  width: 550px;
+  height: 550px;
+  flex-shrink: 0;
+  background: #1f2937;
+}
+section:last-of-type {
+  display: flex;
 }
 #passwordFields {
   width: 211px;
