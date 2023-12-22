@@ -9,7 +9,6 @@
 }
 
 body {
-  display: flex;
   width: 1253px;
   height: 678px;
   padding: 64px 61px;
@@ -45,7 +44,7 @@ h1 {
   line-height: 40px; /* 100% */
   letter-spacing: -1px;
 }
-section:first-of-type {
+section {
   width: 550px;
   height: 550px;
   flex-shrink: 0;
