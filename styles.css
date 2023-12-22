@@ -44,6 +44,7 @@ h1 {
   font-weight: 800;
   line-height: 40px; /* 100% */
   letter-spacing: -1px;
+  
 }
 section:first-of-type {
   width: 550px;
@@ -52,7 +53,7 @@ section:first-of-type {
   background: #1f2937;
 }
 
-#passwordFields {
+.passwordFields {
   display: inline-block;
   width: 211px;
   height: 39px;
