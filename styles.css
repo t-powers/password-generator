@@ -70,16 +70,16 @@ p {
 button {
   font-size: 1.4rem;
   margin-top: 60px;
-  background-color: #34d399;
+  background-color: #6EE7B7;
   padding: 5px 20px;
   border-radius: 6px;
 }
 button:hover {
-  background-color: #a7f3d0;
+  background-color: #D1FAE5;
 }
 
 span {
-  color: #34d399;
+  color: #6EE7B7;
 }
 
 .passwordFields {
