@@ -10,7 +10,18 @@ const punctuationMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-
 function getRandom(char){
     return Math.floor(Math.random()*char);
 }
-console.log(letters[getRandom(letters.length)])
+//console.log(letters[getRandom(letters.length)])
+
 //call function using arrays
+function combineArrays(){
+    ltr = letters[getRandom(letters.length)]
+    nbr = numbers[getRandom(numbers.length)]
+    punc = punctuationMarks[getRandom(punctuationMarks.length)]
+    combo = ltr + nbr + punc;
+    return combo;
+
+    
+}
+console.log(combineArrays())
 //concat random array outputs
 //random sort new array
