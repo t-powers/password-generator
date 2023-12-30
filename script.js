@@ -4,7 +4,7 @@ const letters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P",
 const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 //prettier-ignore
-const punctuationMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
+const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
 //add random index function
 function getRandom(char) {
@@ -16,10 +16,10 @@ function getRandom(char) {
 function combineArrays() {
   ltr = letters[getRandom(letters.length)];
   nbr = numbers[getRandom(numbers.length)];
-  punc = punctuationMarks[getRandom(punctuationMarks.length)];
+  punc = punctMarks[getRandom(punctMarks.length)];
   combo = ltr + nbr + punc;
   return combo;
 }
-console.log(combineArrays());
+
 //concat random array outputs
 //random sort new array
