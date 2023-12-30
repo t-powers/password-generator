@@ -7,21 +7,19 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 const punctuationMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
 //add random index function
-function getRandom(char){
-    return Math.floor(Math.random()*char);
+function getRandom(char) {
+  return Math.floor(Math.random() * char);
 }
 //console.log(letters[getRandom(letters.length)])
 
 //call function using arrays
-function combineArrays(){
-    ltr = letters[getRandom(letters.length)]
-    nbr = numbers[getRandom(numbers.length)]
-    punc = punctuationMarks[getRandom(punctuationMarks.length)]
-    combo = ltr + nbr + punc;
-    return combo;
-
-    
+function combineArrays() {
+  ltr = letters[getRandom(letters.length)];
+  nbr = numbers[getRandom(numbers.length)];
+  punc = punctuationMarks[getRandom(punctuationMarks.length)];
+  combo = ltr + nbr + punc;
+  return combo;
 }
-console.log(combineArrays())
+console.log(combineArrays());
 //concat random array outputs
 //random sort new array
