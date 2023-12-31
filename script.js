@@ -6,6 +6,8 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 //prettier-ignore
 const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
+let mkPassword = document.getElementById("mkPassword");
+
 //add random index function
 function getRandom(char) {
   return Math.floor(Math.random() * char);
@@ -16,9 +18,10 @@ function getRandom(char) {
 function combineArrays() {
   ltr = letters[getRandom(letters.length)];
   nbr = numbers[getRandom(numbers.length)];
-  punc = punctMarks[getRandom(punctMarks.length)];
-  combo = ltr + nbr + punc;
-  return combo;
+  punct = punctMarks[getRandom(punctMarks.length)];
+  combo = ltr + nbr + punct;
+  passwordOne.innerText = combo;
+  passwordTwo.innerText = combo;
 }
 
 //concat random array outputs

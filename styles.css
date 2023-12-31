@@ -82,8 +82,8 @@ span {
   color: #6ee7b7;
 }
 
-.passwordOne,
-.passwordTwo {
+#passwordOne,
+#passwordTwo {
   display: inline-block;
   margin-top: 65px;
   width: 211px;
