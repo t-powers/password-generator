@@ -13,20 +13,6 @@ function getRandom(char) {
   return Math.floor(Math.random() * char);
 }
 //console.log(letters[getRandom(letters.length)])
-
 //call function using arrays
-function combineArrays() {
-  ltr = letters[getRandom(letters.length)];
-  nbr = numbers[getRandom(numbers.length)];
-  punct = punctMarks[getRandom(punctMarks.length)];
-  combo = ltr + nbr + punct;
-  passwordOne.innerText = combo;
-  ltr = letters[getRandom(letters.length)];
-  nbr = numbers[getRandom(numbers.length)];
-  punct = punctMarks[getRandom(punctMarks.length)];
-  combo = ltr + nbr + punct;
-  passwordTwo.innerText = combo;
-}
-
 //concat random array outputs
 //random sort new array
