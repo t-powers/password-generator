@@ -4,12 +4,16 @@ function randLetters(){
   return letters[getRandom(letters.length)];
   
 }
-console.log(randLetters());
-
-const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+function randNumbers() {
+  const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+  return numbers[getRandom(numbers.length)];
+}
 
 //prettier-ignore
-const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
+function randPuncts(){
+  const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
+  return punctMarks[getRandom(punctMarks.length)];
+}
 
 //add random index function
 function getRandom(char) {
