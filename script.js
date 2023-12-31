@@ -20,10 +20,3 @@ function getRandom(char) {
   return Math.floor(Math.random() * char);
 }
 
-
-
-
-//console.log(letters[getRandom(letters.length)])
-//call function using arrays
-//concat random array outputs
-//random sort new array
