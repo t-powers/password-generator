@@ -20,9 +20,4 @@ function getRandom(char) {
   return Math.floor(Math.random() * char);
 }
 
-function combineRandom() {
-  let i = "";
-  for (let i in randPuncts()) {
-  }
-}
-console.log(combineRandom());
+
