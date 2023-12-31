@@ -28,6 +28,5 @@ function combineArrays() {
   passwordTwo.innerText = combo;
 }
 
-
 //concat random array outputs
 //random sort new array
