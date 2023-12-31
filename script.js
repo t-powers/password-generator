@@ -15,10 +15,13 @@ function randPuncts(){
   return punctMarks[getRandom(punctMarks.length)];
 }
 
-//add random index function
+//add random number function
 function getRandom(char) {
   return Math.floor(Math.random() * char);
 }
+
+
+
 
 //console.log(letters[getRandom(letters.length)])
 //call function using arrays
