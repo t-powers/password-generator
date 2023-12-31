@@ -20,9 +20,14 @@ function combineArrays() {
   nbr = numbers[getRandom(numbers.length)];
   punct = punctMarks[getRandom(punctMarks.length)];
   combo = ltr + nbr + punct;
-  // passwordOne.innerText = combo;
-  // passwordTwo.innerText = combo;
+  passwordOne.innerText = combo;
+  ltr = letters[getRandom(letters.length)];
+  nbr = numbers[getRandom(numbers.length)];
+  punct = punctMarks[getRandom(punctMarks.length)];
+  combo = ltr + nbr + punct;
+  passwordTwo.innerText = combo;
 }
-console.log(combineArrays());
+
+
 //concat random array outputs
 //random sort new array
