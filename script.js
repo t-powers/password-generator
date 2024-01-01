@@ -20,4 +20,6 @@ function getRandom(char) {
   return Math.floor(Math.random() * char);
 }
 
+let passwordOne = document.getElementById("passwordOne");
+let passwordTwo = document.getElementById("passwordTwo");
 
