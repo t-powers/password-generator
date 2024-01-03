@@ -17,8 +17,8 @@ function randPuncts(){
 }
 
 //add random number function
-function getRandom() {
-  return Math.floor(Math.random() * 3);
+function getRandom(char) {
+  return Math.floor(Math.random() * char.length);
 }
 
 const fieldOne = document.getElementById("passwordOne");
@@ -45,3 +45,4 @@ function combineArrays(passwordFields) {
   }
   return randomString;
 }
+fieldOne.innerText = combineArrays();
