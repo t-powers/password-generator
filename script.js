@@ -24,8 +24,4 @@ function getRandom(char) {
 const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 
-function combineArrays() {
-  let newArrs = randLetters() + randNumbers() + randPuncts();
-  passwordOne.innerText = newArrs;
-  
-}
+
