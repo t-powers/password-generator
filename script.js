@@ -26,9 +26,23 @@ const fieldTwo = document.getElementById("passwordTwo");
 
 //return random function char
 function combineArrays(passwordFields) {
-  let combos = "";
+  let randomString = "";
 
   for (let i = 0; i < 10; i++) {
     const randFunction = getRandom();
+
+    switch (randFunction) {
+      case 0:
+        randomString += getRandomChar1();
+        break;
+      case 1:
+        randomString += getRandomChar2();
+        break;
+      case 2:
+        randomString += getRandomChar3();
+        break;
+    }
   }
+  return randomString;
 }
+
