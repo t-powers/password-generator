@@ -33,13 +33,13 @@ function combineArrays(passwordFields) {
 
     switch (randFunction) {
       case 0:
-        randomString += getRandomChar1();
+        randomString += randLetters();
         break;
       case 1:
-        randomString += getRandomChar2();
+        randomString += randNumbers();
         break;
       case 2:
-        randomString += getRandomChar3();
+        randomString += randPuncts();
         break;
     }
   }
