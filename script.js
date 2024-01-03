@@ -11,24 +11,3 @@ const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 
 //return random function char
-function combineArrays(passwordFields) {
-  let randomString = "";
-
-  for (let i = 0; i < 10; i++) {
-    const randFunction = getRandom();
-
-    switch (randFunction) {
-      case 0:
-        randomString += randLetters();
-        break;
-      case 1:
-        randomString += randNumbers();
-        break;
-      case 2:
-        randomString += randPuncts();
-        break;
-    }
-  }
-  return randomString;
-}
-fieldOne.innerText = combineArrays();
