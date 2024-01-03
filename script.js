@@ -17,11 +17,18 @@ function randPuncts(){
 }
 
 //add random number function
-function getRandom(char) {
-  return Math.floor(Math.random() * char);
+function getRandom() {
+  return Math.floor(Math.random() * 3);
 }
 
 const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 
+//return random function char
+function combineArrays(passwordFields) {
+  let combos = "";
 
+  for (let i = 0; i < 10; i++) {
+    const randFunction = getRandom();
+  }
+}
