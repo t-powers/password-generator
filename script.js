@@ -11,3 +11,6 @@ const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 
 //return random function char
+function combineArrays(){
+  fieldOne.innerText = 'Test';
+}
