@@ -45,4 +45,3 @@ function combineArrays(passwordFields) {
   }
   return randomString;
 }
-
