@@ -6,11 +6,15 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 //prettier-ignore
 const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
-
 const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 
-//return random function char
-function combineArrays(){
-  fieldOne.innerText = 'Test';
+function randomElement(int) {
+  return Math.floor(Math.random() * int);
 }
+
+
+//return random function char
+// function combineArrays(){
+//   fieldOne.innerText = ;
+// }
