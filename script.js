@@ -9,9 +9,13 @@ const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+",
 const mergedArrays = letters.concat(numbers, punctMarks);
 const flattenedArrays = mergedArrays.flat();
 
+console.log(flattenedArrays[randomElement(flattenedArrays.length)])
+
 function randomElement(int) {
   return Math.floor(Math.random() * int);
 }
+
+
 const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 
