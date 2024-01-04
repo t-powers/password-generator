@@ -14,7 +14,3 @@ function randomElement(int) {
 }
 
 
-//return random function char
-// function combineArrays(){
-//   fieldOne.innerText = ;
-// }
