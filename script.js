@@ -13,4 +13,7 @@ function randomElement(int) {
   return Math.floor(Math.random() * int);
 }
 
-
+//for loop to iterate random generator 10x
+//use random number to Switch to array
+//use random number function to pick array location
+//return array to html field
