@@ -6,26 +6,27 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 //prettier-ignore
 const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
-
-
 const mergedArrays = letters.concat(numbers, punctMarks);
 const flattenedArrays = mergedArrays.flat();
 
-function randomPick(){
-  flattenedArrays[randomElement(flattenedArrays.length)];
-
-}
-console.log(randomPick())
+// function randomPick() {
+//   flattenedArrays[randomElement(flattenedArrays.length)];
+// }
 
 function randomElement(int) {
   return Math.floor(Math.random() * int);
 }
 
+let fieldString = [];
+for (let i = 0; i < 10; i++) {
+  fieldString.push(flattenedArrays[randomElement(flattenedArrays.length)]);
+  applyString = fieldString.join("");
+}
+
+
+
 const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
-
-
-
 
 //for loop to iterate random generator 10x
 //use random number to Switch to array
