@@ -6,18 +6,24 @@ const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 //prettier-ignore
 const punctMarks = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
+
+
 const mergedArrays = letters.concat(numbers, punctMarks);
 const flattenedArrays = mergedArrays.flat();
 
-console.log(flattenedArrays[randomElement(flattenedArrays.length)])
+function randomPick(){
+  flattenedArrays[randomElement(flattenedArrays.length)];
+
+}
+console.log(randomPick())
 
 function randomElement(int) {
   return Math.floor(Math.random() * int);
 }
 
-
 const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
+
 
 
 
