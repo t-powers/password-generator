@@ -11,29 +11,16 @@ const fieldTwo = document.getElementById("passwordTwo");
 const mergedArrays = letters.concat(numbers, punctMarks);
 const flattenedArrays = mergedArrays.flat();
 
-// function randomPick() {
-//   flattenedArrays[randomElement(flattenedArrays.length)];
-// }
-
 function randomElement(int) {
   return Math.floor(Math.random() * int);
 }
-
-
 
 let fieldString = [];
 
 for (let i = 0; i < 10; i++) {
   fieldString.push(flattenedArrays[randomElement(flattenedArrays.length)]);
   newString = fieldString.join("");
-  
 }
 
-fieldOne.innerText = newString;
+fieldOne.innerText += newString;
 
-
-
-//for loop to iterate random generator 10x
-//use random number to Switch to array
-//use random number function to pick array location
-//return array to html field
