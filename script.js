@@ -15,12 +15,17 @@ function randomElement(int) {
   return Math.floor(Math.random() * int);
 }
 
-let fieldString = [];
+function callString() {
+  let fieldString = [];
 
-for (let i = 0; i < 10; i++) {
-  fieldString.push(flattenedArrays[randomElement(flattenedArrays.length)]);
-  newString = fieldString.join("");
+  for (let i = 0; i < 10; i++) {
+    fieldString.push(flattenedArrays[randomElement(flattenedArrays.length)]);
+    newString = fieldString.join("");
+  }
 }
-
-fieldOne.innerText += newString;
-
+function genPasswords() {
+  callString()
+  fieldOne.innerText = newString;
+  callString()
+  fieldTwo.innerText = newString;
+}
