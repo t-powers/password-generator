@@ -10,6 +10,7 @@ const fieldOne = document.getElementById("passwordOne");
 const fieldTwo = document.getElementById("passwordTwo");
 const mergedArrays = letters.concat(numbers, punctMarks);
 const flattenedArrays = mergedArrays.flat();
+const copyText = document.querySelector("#passwordOne");
 
 function randomElement(int) {
   return Math.floor(Math.random() * int);
@@ -29,3 +30,8 @@ function genPasswords() {
   callString()
   fieldTwo.innerText = newString;
 }
+
+copyText.addEventListener("click",()=>{
+  navigator.clipboard.writeText(copyText.textContent);
+  alert("Copied!")
+})
