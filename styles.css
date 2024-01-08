@@ -92,3 +92,12 @@ span {
   background: #273549;
   border: 2px solid #064e3b;
 }
+
+#passwordOne > button{
+  font-size: 1rem;
+  padding: 2px 10px
+}
+#passwordTwo > button{
+  font-size: 1rem;
+  padding: 2px 10px
+}
