@@ -44,7 +44,7 @@ section {
   height: 550px;
   flex-shrink: 0;
   background: #1f2937;
-  padding-top: 115px;
+  padding-top: 80px;
   padding-left: 52px;
 }
 
@@ -82,10 +82,14 @@ span {
   color: #6ee7b7;
 }
 
+.pwordBlock{
+  margin-top: 40px;
+  border-top: 1px solid #064e3b;
+}
 #passwordOne,
 #passwordTwo {
   display: inline-block;
-  margin-top: 65px;
+  margin-top: 30px;
   width: 211px;
   height: 39px;
   border-radius: 6px;
