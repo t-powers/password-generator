@@ -82,12 +82,15 @@ span {
   color: #6ee7b7;
 }
 
-.pwordBlock{
+.pwordBlock {
   margin-top: 40px;
   border-top: 1px solid #064e3b;
 }
 #passwordOne,
 #passwordTwo {
+  color: #ccffe5;
+  letter-spacing: 2px;
+  text-align: center;
   display: inline-block;
   margin-top: 30px;
   width: 211px;
