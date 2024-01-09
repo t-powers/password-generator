@@ -62,7 +62,7 @@ p {
   width: 372px;
   color: var(--Medium-grey, #d5d4d8);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -84,7 +84,7 @@ span {
 }
 
 .pwordBlock {
-  margin-top: 50px;;
+  margin-top: 50px;
   border-top: 1px solid #064e3b;
 }
 #passwordOne,
@@ -93,12 +93,11 @@ span {
   letter-spacing: 2px;
   text-align: center;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 45px;
   width: 211px;
   height: 39px;
   border-radius: 6px;
   background: #273549;
-  
 }
 
 .copyButtons {
