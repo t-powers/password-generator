@@ -18,7 +18,7 @@ function randomElement(int) {
 
 function callString() {
   let fieldString = [];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 15; i++) {
     fieldString.push(flattenedArrays[randomElement(flattenedArrays.length)]);
     newString = fieldString.join("");
   }
