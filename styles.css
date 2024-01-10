@@ -9,13 +9,13 @@
 }
 
 body {
-  width: 1253px;
+  width: 653px;
   height: 678px;
   padding: 64px 61px;
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
-  flex-shrink: 0;
+  flex-shrink: 1;
   background: #1c1c1c;
 }
 
@@ -99,5 +99,3 @@ span {
   border-radius: 6px;
   background: #273549;
 }
-
-
