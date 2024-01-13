@@ -12,10 +12,7 @@ body {
   width: 653px;
   height: 678px;
   padding: 64px 61px;
-  justify-content: center;
-  align-items: flex-start;
   gap: 30px;
-  flex-shrink: 1;
   background: #1c1c1c;
 }
 
