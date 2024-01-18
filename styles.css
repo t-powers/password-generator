@@ -75,6 +75,7 @@ button {
 button:hover {
   background-color: #d1fae5;
   color: rgb(8, 164, 0);
+  transform: translateY(-2px);
 }
 
 span {
