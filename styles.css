@@ -71,11 +71,12 @@ button {
   padding: 5px 20px;
   border: none;
   border-radius: 6px;
+  transition: transform 200ms;
 }
 button:hover {
   background-color: #d1fae5;
   color: rgb(8, 164, 0);
-  transform: translateY(-2px);
+  transform: translateY(-1.5px);
 }
 
 span {
